@@ -1,0 +1,87 @@
+.nusprite-breadcrumb {
+    margin:5px 0;
+    padding:10px;
+    background-color:bisque;
+}
+.nusprite ul {
+    list-style:square;
+    padding-left:20px;
+}
+.nusprite code {
+    display:block;
+    white-space:pre-wrap;
+}
+.nusprite code-bad {
+    border:solid 2px red;
+}
+.nusprite code-good {
+    border:solid 2px green;
+}
+.nusprite code .highlight {
+    background:yellow;
+}
+.nusprite-image-wrapper {
+    display:inline-block;
+    max-width:95%;
+    overflow:auto;
+    margin-bottom:10px;
+    border:1px solid #999;
+}
+.nusprite-image-wrapper img {
+    display:block;
+}
+
+
+.nusprite-table-wrapper {
+    margin:10px 0;
+    color:#000;
+}
+.nusprite-table-wrapper.tal {
+    text-align:left
+}
+.nusprite-table-wrapper > table {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+}
+.nusprite-table-wrapper tr > * {
+    vertical-align:top;
+    text-align:left;
+    overflow-wrap: break-word;
+}
+.nusprite-table-wrapper > table > tr > th,
+.nusprite-table-wrapper > table > * > tr > th {
+    border: thin solid #6495ed;
+    padding: 5px;
+    background-color: #D1E6FE;
+}
+.nusprite-table-wrapper > table > tr > td,
+.nusprite-table-wrapper > table > * > tr > td {
+    border: thin solid #6495ed;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.nusprite-table-wrapper > table.odd-even tbody > tr > * {
+    background:transparent;
+}
+
+.nusprite-table-wrapper > table.odd-even  tr:nth-child(odd) {
+    background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAACBJREFUGFdj/P//PwMDw+XLlxkuXboE5ID4QAzi/P8PADGIFlhmNzmAAAAAAElFTkSuQmCC) left top repeat;
+}
+.nusprite-table-wrapper > table.odd-even tbody tr:nth-child(even) {
+    background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAB5JREFUGFdjuHTp0n8wYARiBgaGy5cvMwBZIOH//wFPQhZYPmTt9gAAAABJRU5ErkJggg==) left top repeat;   
+}
+.nusprite-table-wrapper > table.odd-even tbody tr:nth-child(even) > td {
+    background-color: rgba(240,255,240,0.5);
+}
+.nusprite-table-wrapper > table.odd-even tbody  tr:nth-child(even) > th {
+    background-color: rgba(220,235,220,0.5);
+}
+.nusprite-table-wrapper > table.odd-even tbody tr:nth-child(odd) > td {
+    background-color: rgba(240,240,255,0.5);
+}
+.nusprite-table-wrapper > table.odd-even tbody tr:nth-child(odd) > th {
+    background-color: rgba(220,220,235,0.5);
+}
+.nusprite-table-wrapper > table.odd-even tbody tr:hover > * {
+    background-color: rgba(255,255,100,0.5);
+}

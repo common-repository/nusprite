@@ -1,0 +1,202 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nufullscreen\n"
+"POT-Creation-Date: 2021-05-01 14:32+0200\n"
+"PO-Revision-Date: 2020-12-01 15:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: Nuweb\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-nusprite-admin-page-create-sprite.php:13
+msgid "slug already exists"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-create-sprite.php:15
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:19
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:27
+msgid "syntax error"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-create-sprite.php:21
+msgid "Edit sprite"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-create-sprite.php:31
+msgid "Slug"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-create-sprite.php:38
+#, php-format
+msgid "lowercase, figures, underscores, max %d characters"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-documentation.php:17
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:100
+#, php-format
+msgid "%s of images"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-documentation.php:21
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:103
+#, php-format
+msgid "%s containing %s"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite-delete.php:21
+#, php-format
+msgid "You could %s delete related posts"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite-delete.php:23
+#, php-format
+msgid "You could %s delete unattached images"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite-delete.php:28
+#, php-format
+msgid "Delete sprite \"%s\" ?"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:35
+msgid "not found"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:105
+#, php-format
+msgid "%s of credits"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite-settings.php:127
+msgid "Narrowest as possible"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite.php:17
+msgid "Current image"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite.php:17
+msgid "Manage images"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite.php:17
+msgid "Settings"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite.php:17
+msgid "Delete"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-edit-sprite.php:25
+msgid "Not found"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-space-on-disk.php:29
+#: classes/class-nusprite-admin.php:44
+msgid "Space on disk"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-space-on-disk.php:59
+#, php-format
+msgid "Number of <b>old versions</b> older than %d days"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-space-on-disk.php:75
+#, php-format
+msgid "Nusprite schedulded a WP-Cron task to delete %d old files each hour."
+msgstr ""
+
+#: classes/class-nusprite-admin-page-space-on-disk.php:78
+#, php-format
+msgid "As <b>%s</b> is defined, this task will run only if a server cron job is scheduled."
+msgstr ""
+
+#: classes/class-nusprite-admin-page-space-on-disk.php:84
+#, php-format
+msgid "Delete files older than %d days right now"
+msgstr ""
+
+#: classes/class-nusprite-admin-page-uninstall.php:15
+#, php-format
+msgid "Plugin is ready for %s uninstall"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:42
+msgid "Create a new sprite image"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:42
+msgid "Create a sprite image"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:46
+msgid "Documentation"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:48
+msgid "Troubleshooting"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:49
+msgid "Uninstall"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:55
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: classes/class-nusprite-admin.php:95
+msgid "Sprite Items"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:96
+msgid "All sprite items"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:97
+msgid "View items"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:98
+msgid "Add New item to sprite"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:99
+msgid "Add New Item"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:100
+msgid "Edit sprite item"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:101
+msgid "Update sprite item"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:102
+msgid "Search items"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:103
+msgid "No item found"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:104
+msgid "No item found in trash"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:108
+msgid "Sprite Item"
+msgstr ""
+
+#: classes/class-nusprite-admin.php:109
+msgid "Sprite items"
+msgstr ""
